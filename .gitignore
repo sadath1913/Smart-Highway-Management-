@@ -192,3 +192,49 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+.env.*
+
+# Misc
+*.sqlite3
+*.db
+*.bak
