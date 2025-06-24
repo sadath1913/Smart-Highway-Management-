@@ -21,7 +21,7 @@ st.set_page_config(page_title="Smart Traffic & Toll Management", layout="wide")
 custom_css = """
 <style>
 html, body, [data-testid="stAppViewContainer"] {
-    background: linear-gradient(to right, #243b55, #141e30);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     
     background-attachment: fixed;
     background-repeat: no-repeat;
