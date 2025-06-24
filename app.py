@@ -9,7 +9,7 @@ import random
 import folium
 from streamlit_folium import st_folium
 from PIL import Image
-import pytesseract
+#import pytesseract
 import base64
 import smtplib
 from email.mime.text import MIMEText
@@ -284,9 +284,11 @@ if section == "Highway Vehicle Management":
             st.success(f"Vehicle {plate} added successfully.")
 
             if image:
-                img = Image.open(image)
-                text = pytesseract.image_to_string(img)
-                st.info(f"OCR Result: {text}")
+                st.image(image, caption="Uploaded Image", use_column_width=True)
+               # st.info(f"OCR Result: {text}")
+                #img = Image.open(image)
+                #text = pytesseract.image_to_string(img)
+                st.info("OCR is disabled in this deployment.")
 
     if st.session_state.vehicles:
         st.subheader("📋 Active Vehicles on Highway")
