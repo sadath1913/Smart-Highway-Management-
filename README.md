@@ -8,7 +8,7 @@ An integrated and intelligent highway monitoring system built with **Streamlit**
 
 ![Smart Dashboard Preview](Assets/Screenshots/s5.png)
 ![Smart App Preview](Assets/Screenshots/s1.png)
-![Smart App Preview](Assets/Screenshots/s1.png)
+![Smart App Preview](Assets/Screenshots/s2.png)
 ![Smart App Preview](Assets/Screenshots/s3.png)
 ![Smart App Preview](Assets/Screenshots/s4.png)
 
@@ -64,7 +64,7 @@ An integrated and intelligent highway monitoring system built with **Streamlit**
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/sadath1913/Smart-Highway-Management-.git
 cd smart-traffic-management
 
 ### 2 Create Virtual Environment
